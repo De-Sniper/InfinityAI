@@ -51,7 +51,7 @@ mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=major
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254798242085&text=Ayoo+Kress"><img src="https://img.shields.io/badge/Contact Ayush-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254798242085&text=Ayoo+Kress"><img src="https://img.shields.io/badge/Contact Kresswell-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
