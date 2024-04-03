@@ -18,10 +18,10 @@
 <div align="center">
 
  ###  FORK THIS REPO
-<a href='[https://github.com/EscaliBud/Infinity-AI/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='[https://github.com/muiruri42/InfinityAI/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ###  SCAN QR CODE 
-<a href='https://replit.com/@wszwxybf/infinitypairing0?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Scan Qr code-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://replit.com/@wszwxybf/infinitypairing0?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/link with code-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 <a href='https://replit.com/@wszwxybf/infinityai?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Scan Qr code 2-black?style=for-the-badge&logo=qrcode&logoColor=white'/></a>
 
 ## `𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐔𝐑𝐋.`    Your Bot Cannot run without this.
@@ -38,7 +38,7 @@ mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=major
 
  Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/EscaliBud/Infinity-AI' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/muiruri42/InfinityAI' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
  How To Deploy video Tutorial.
      <br>
