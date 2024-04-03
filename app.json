@@ -3,6 +3,7 @@
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
   "repository": "https://github.com/Kresswell/Infinity-AI",
+  "logo": "https://i.ibb.co/7Wm7Lh4/file-163.jpg",
   "stack": "container",
   "env": {
     "AUTO_READ": {
