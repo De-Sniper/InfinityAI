@@ -10,6 +10,11 @@
       "required": false,
       "value": ""
     },
+    "FOR_NOTIFICATION": {
+  "description": "Type the number you will like to be recieving notification when bot restarts..",
+  "required": true,
+  "value": ""
+},
     "ALWAYS_ONLINE": {
   "description": "Enable always online feature",
   "required": false,
