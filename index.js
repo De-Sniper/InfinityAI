@@ -1,6 +1,6 @@
 const sessionName = "escalibud";
 const autobio = process.env.AUTOBIO || 'TRUE';
-const owner = process.env.DEV || '254798242085';
+const owner = process.env.FOR_NOTIFICATION || '254798242085';
  const kresswell = "254798242085@s.whatsapp.net";
 const {
   default: escalibudConnect,
