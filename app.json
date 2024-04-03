@@ -6,10 +6,10 @@
   "logo": "https://i.ibb.co/7Wm7Lh4/file-163.jpg",
   "stack": "container",
   "env": {
-    "AUTO_READ": {
-      "description": "Enable auto read feature",
+    "AUTOREAD": {
+      "description": "Enable auto read of messages",
       "required": false,
-      "value": ""
+      "value": "FALSE"
     },
     "FOR_NOTIFICATION": {
   "description": "Type the number you will like to be recieving notification when bot restarts..",
@@ -19,12 +19,17 @@
     "ALWAYS_ONLINE": {
   "description": "Enable always online feature",
   "required": false,
-  "value": ""
+  "value": "TRUE"
 },
 "AUTOVIEW_STATUS": {
-  "description": "Enable auto typing feature",
+  "description": "Enable auto status viewing feature",
   "required": false,
-  "value": ""
+  "value": "TRUE"
+},
+    "WA_PRESENCE": {
+  "description": "Put value as recording if you want bot to be recording all times and typing for typing",
+  "required": false,
+  "value": "recording"
 },
     "MONGO_DB": {
       "description": "your mongodb database url",
@@ -34,7 +39,7 @@
     "PREFIX": {
   "description": "any symbol,if you leave blank,it will be responding to all messages",
   "required": false,
-  "value": ""
+  "value": "."
 },
 "APP_NAME": {
   "description": "App name exactlyas the one above",
