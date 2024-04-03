@@ -1,0 +1,63 @@
+{
+  "name": "INFINITY-AI",
+  "description": "Whatsapp bot.",
+  "keywords": ["whatsapp bot"],
+  "repository": "https://github.com/Kresswell/Infinity-AI",
+  "stack": "container",
+  "env": {
+    "AUTO_READ": {
+      "description": "Enable auto read feature",
+      "required": false,
+      "value": ""
+    },
+    "ALWAYS_ONLINE": {
+  "description": "Enable always online feature",
+  "required": false,
+  "value": ""
+},
+"AUTOVIEW_STATUS": {
+  "description": "Enable auto typing feature",
+  "required": false,
+  "value": ""
+},
+    "MONGO_DB": {
+      "description": "your mongodb database url",
+      "required": true,
+      "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
+    },
+    "PREFIX": {
+  "description": "any symbol,if you leave blank,it will be responding to all messages",
+  "required": false,
+  "value": ""
+},
+"APP_NAME": {
+  "description": "App name exactlyas the one above",
+  "required": true,
+  "value": ""
+},
+"HEROKU_API": {
+  "description": "Get from heroku account settings tab",
+  "required": true,
+  "value": ""
+},
+"OWNER": {
+  "description": "Type the numbers you will like to be Owners,Separate with a comma.",
+  "required": false,
+  "value": "254798242085"
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
