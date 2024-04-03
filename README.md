@@ -44,3 +44,22 @@ mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=major
  How To Deploy video Tutorial.
      <br>
           <a href='https://youtu.be/BX0vkAirhkY?si=ZoOT-Gsis-acsjGT' target="_blank"><img alt='Heroku Deploy Tutorial' src='https://img.shields.io/badge/-Heroku Deploy Tutorial-blue?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+
+
+## ```Connect With Me```
+
+<p align="center">
+
+<a href="https://api.whatsapp.com/send?phone=254798242085&text=Ayoo+Kress"><img src="https://img.shields.io/badge/Contact Ayush-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
+
+
+## ```Bot Support Groups```
+<p align="center">
+
+<a href="https://chat.whatsapp.com/Kj1wciIa4VKIvv7Oz66nEz"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
