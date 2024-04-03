@@ -43,7 +43,7 @@ mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=major
 
  How To Deploy video Tutorial.
      <br>
-          <a href='https://youtu.be/BX0vkAirhkY?si=ZoOT-Gsis-acsjGT' target="_blank"><img alt='Heroku Deploy Tutorial' src='https://img.shields.io/badge/-Heroku Deploy Tutorial-blue?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+          <a href='https://youtube.com/InfinityHackersKE' target="_blank"><img alt='Heroku Deploy Tutorial' src='https://img.shields.io/badge/-Heroku Deploy Tutorial-blue?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 
