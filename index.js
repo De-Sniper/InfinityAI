@@ -179,7 +179,7 @@ async function startEscalibud() {
     console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("KRESSWELL BOT", {
+      figlet.textSync("INFINITY AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -192,7 +192,7 @@ async function startEscalibud() {
   const client = escalibudConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["KRESSWELL - BOT", "Safari", "5.1.7"],
+    browser: ["INFINITY - AI", "Safari", "5.1.7"],
     auth: state,
 syncFullHistory: true,
   });
