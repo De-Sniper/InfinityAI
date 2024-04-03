@@ -6,13 +6,13 @@
 </p>
 <h1 align="center">(^▽^) ＫＲＥＳＳＷＥＬＬ (✿^▽^)</h1>
 </p>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I+Am+INFINITY-AI;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+KRESSWELL;PUBLIC+RELESE+DATE;COMING+SOON;LONG+LIVE+KRESSWELL+🗿." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I+Am+INFINITY-AI;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+KRESSWELL;PUBLIC+RELESE+DATE;03+APRIL+2024;TO+THE+INFINITY+🗿." alt="Typing SVG" /></a>
 <p align="center"><a href="https://github.com/Muiruri42"><img title="Author" src="https://img.shields.io/badge/OWNER-KRESSWELL-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></p><br>
 
 
-**A WhatsApp User Bot Created By the Infinity Hackers Kenya Team.A lightweight But still under development javascript bot.👾**
+**A WhatsApp User Bot Created By the Infinity Hackers Team.A lightweight But still under development javascript bot.👾**
 
-**⚠️ Note: This bot is not yet available for public Deploymens;**
+**⚠️ Bot Is now Available for Public Deployments.;**
 
 
 <div align="center">
@@ -24,7 +24,8 @@
 <a href='https://replit.com/@wszwxybf/infinitypairing0?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/link with code-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 <a href='https://replit.com/@wszwxybf/infinityai?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Scan Qr code 2-black?style=for-the-badge&logo=qrcode&logoColor=white'/></a>
 
-## `𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐔𝐑𝐋.`    Your Bot Cannot run without this.
+## `𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐔𝐑𝐋.` 
+Your Bot Cannot run without this.
 
 ```
 mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority
