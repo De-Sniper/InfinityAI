@@ -16,6 +16,11 @@
   "required": true,
   "value": ""
 },
+    "OPEN_AI_KEY": {
+  "description": "Enter your Open AI key for .ai-img and .ai functionality. You can leave blank and Use .gpt command",
+  "required": false,
+  "value": ""
+},
     "ALWAYS_ONLINE": {
   "description": "Enable always online feature",
   "required": false,
