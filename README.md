@@ -39,7 +39,7 @@ mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=major
 
  Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/muiruri42/InfinityAI' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://infinity-ai-zeta.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
  How To Deploy video Tutorial.
      <br>
