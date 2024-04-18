@@ -637,6 +637,7 @@ const cmdConv = ["Sticker", "smeme", "Tourl", "Styletext", "Fontchange", "Fancy"
 const cmdMain = ["Ping", "Alive", "Runtime","Owner", "Menu", "Listpc", "Listgc", "Listonline", "Buypremium"];
 const cmdOwner = ["Setvar", "Getvar", "Join", "Leave", "Block", "Unblock", "Bcgc", "Bcall", "botpp", "Eval", "Addprem", "DelPrem"];
 const cmdStalk = ["Nowa", "Truecaller", "InstaStalk", "Github", "fetch"];
+const cmdLogo = ["Shadow", "write", "smoke", "Burnpaper", "romantic", "writeart", "Rainboweffect", "smokyneon", "underwaterocean", "coffecup", "Doublelove", "Undergrass", "love", "narutobanner", "shinetext"]
 
 function getRandomSymbol() {
     const symbols = ['◉', '★', '◎', '✯','✯','✰','◬','✵','✦']; // Add more symbols as needed
@@ -691,6 +692,7 @@ const introTextSearch = generateMenu(cmdSearch, '𝗦𝗘𝗔𝗥𝗖𝗛');
 const introTextFun = generateMenu(cmdFun, '𝗙𝗨𝗡 𝗠𝗘𝗡𝗨');
 const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨');
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
+const introTextLogo = generateMenu(cmdLogo, '𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨');
 
 const menuMessage = `
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ*❯═───❖
@@ -718,6 +720,7 @@ const subMenus = {
     '6': introTextTool,
     '7': introTextFun,
     '8': introTextAi,
+    `9`: introTextLogo,
     '9': introTextMain,
 };
 if (m.text) {
