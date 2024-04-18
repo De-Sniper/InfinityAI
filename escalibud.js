@@ -927,6 +927,14 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷`;
+   cmdList = cmdLogo.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
+    
+    introText += `
+╭───〈 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨 〉───◆
+┃     ╭─────────────···▸
+${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷`;
 
     cmdList = cmdDown.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
