@@ -122,7 +122,7 @@ const packname = process.env.STICKER_PACKNAME || 'InfinityAI';
 const wapresence = process.env.WA_PRESENCE || 'recording';
     const autoread = process.env.AUTOREAD || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-const dev = process.env.OWNER || '254798242085'
+const dev = process.env.OWNER || '923166234989'
 
     const from = m.chat;
    const isRegister = register.includes(m.sender);
@@ -720,7 +720,6 @@ const subMenus = {
     '6': introTextTool,
     '7': introTextFun,
     '8': introTextAi,
-    `9`: introTextLogo,
     '9': introTextMain,
 };
 if (m.text) {
