@@ -456,7 +456,7 @@ if (wapresence === 'recording') {
 
   client.sendPresenceUpdate('composing', m.chat);
     }
-    if (autoread === 'TRUE' && !m.isGroup) { 
+    if (autoread === 'TRUE') { 
              client.readMessages([m.key])
     }
 
