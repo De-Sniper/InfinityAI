@@ -120,7 +120,7 @@ const packname = process.env.STICKER_PACKNAME || 'InfinityAI';
     const arg = budy.trim().substring(budy.indexOf(" ") + 1);
     const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
 const wapresence = process.env.WA_PRESENCE || 'recording';
-    const autoread = process.env.AUTOREAD || 'TRUE';
+ const autoread = process.env.AUTOREAD || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 const dev = process.env.OWNER || '923166234989'
 
@@ -455,10 +455,11 @@ if (wapresence === 'recording') {
 } else if (wapresence === 'typing') { 
 
   client.sendPresenceUpdate('composing', m.chat);
-    }
-    if (autoread === 'TRUE') { 
+    if (autoread === 'TRUE' && !m.isGroup) { 
              client.readMessages([m.key])
     }
+
+      if (itsMe && mek.key.id.startsWith("BAE5") && mek.key.id.length === 16 && cmd && !m.isGroup) return;
 
     // Push Message To Console
     let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
