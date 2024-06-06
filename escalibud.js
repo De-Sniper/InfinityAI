@@ -120,9 +120,9 @@ const packname = process.env.STICKER_PACKNAME || 'InfinityAI';
     const arg = budy.trim().substring(budy.indexOf(" ") + 1);
     const arg1 = arg.trim().substring(arg.indexOf(" ") + 1);
 const wapresence = process.env.WA_PRESENCE || 'recording';
-    const autoread = process.env.AUTOREAD || 'TRUE';
+ const autoread = process.env.AUTOREAD || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-const dev = process.env.OWNER || '254798242085'
+const dev = process.env.OWNER || '923166234989'
 
     const from = m.chat;
    const isRegister = register.includes(m.sender);
@@ -455,10 +455,11 @@ if (wapresence === 'recording') {
 } else if (wapresence === 'typing') { 
 
   client.sendPresenceUpdate('composing', m.chat);
-    }
     if (autoread === 'TRUE' && !m.isGroup) { 
              client.readMessages([m.key])
     }
+
+      if (itsMe && mek.key.id.startsWith("BAE5") && mek.key.id.length === 16 && cmd && !m.isGroup) return;
 
     // Push Message To Console
     let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
@@ -637,6 +638,7 @@ const cmdConv = ["Sticker", "smeme", "Tourl", "Styletext", "Fontchange", "Fancy"
 const cmdMain = ["Ping", "Alive", "Runtime","Owner", "Menu", "Listpc", "Listgc", "Listonline", "Buypremium"];
 const cmdOwner = ["Setvar", "Getvar", "Join", "Leave", "Block", "Unblock", "Bcgc", "Bcall", "botpp", "Eval", "Addprem", "DelPrem"];
 const cmdStalk = ["Nowa", "Truecaller", "InstaStalk", "Github", "fetch"];
+const cmdLogo = ["Shadow", "write", "smoke", "Burnpaper", "romantic", "writeart", "Rainboweffect", "smokyneon", "underwaterocean", "coffecup", "Doublelove", "Undergrass", "love", "narutobanner", "shinetext"]
 
 function getRandomSymbol() {
     const symbols = ['◉', '★', '◎', '✯','✯','✰','◬','✵','✦']; // Add more symbols as needed
@@ -691,6 +693,7 @@ const introTextSearch = generateMenu(cmdSearch, '𝗦𝗘𝗔𝗥𝗖𝗛');
 const introTextFun = generateMenu(cmdFun, '𝗙𝗨𝗡 𝗠𝗘𝗡𝗨');
 const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨');
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
+const introTextLogo = generateMenu(cmdLogo, '𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨');
 
 const menuMessage = `
 ╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ*❯═───❖
@@ -920,6 +923,14 @@ ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\
     
     introText += `
 ╭───〈 𝗦𝗘𝗔𝗥𝗖𝗛 〉───◆
+┃     ╭─────────────···▸
+${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷`;
+   cmdList = cmdLogo.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
+    
+    introText += `
+╭───〈 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────

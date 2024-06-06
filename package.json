@@ -22,7 +22,7 @@
   "author": "EscaliBud",
   "license": "MIT",
   "dependencies": {
-        "@whiskeysockets/baileys": "^6.4.0",
+        "@whiskeysockets/baileys": "github:Luffy2ndAccount/Baileys",
         "@adiwajshing/keyed-db": "^0.2.4", 
         "@hapi/boom": "^10.0.0", 
         "badadvice": "^1.0.0",
@@ -86,6 +86,7 @@
         "ytdl-core": "git+ssh://git@github.com:khlevon/node-ytdl-core.git#v4.11.4-patch.2", 
         "yt-search": "^2.10.4", 
         "ytsr": "^3.8.4",
+        "jsdom": "^24.0.0",
         "youtube-yts": "^2.0.0", 
         "pino": "^7.0.5", 
         "parse-ms": "^2.1.0",
